@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{C1210473-C214-E0CF-5968-BF147ED079D9}") = "supermario", "Assembly-CSharp.csproj", "{23B90784-94BB-5990-0BB9-5597136E9180}"
+Project("{0C3977A0-3B70-BEC8-D9BE-F8423889C8AB}") = "SuperMario", "Assembly-CSharp.csproj", "{A817F398-A3E1-586B-4C05-1F62B4483374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23B90784-94BB-5990-0BB9-5597136E9180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23B90784-94BB-5990-0BB9-5597136E9180}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23B90784-94BB-5990-0BB9-5597136E9180}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23B90784-94BB-5990-0BB9-5597136E9180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A817F398-A3E1-586B-4C05-1F62B4483374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A817F398-A3E1-586B-4C05-1F62B4483374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A817F398-A3E1-586B-4C05-1F62B4483374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A817F398-A3E1-586B-4C05-1F62B4483374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																										GlobalSection(MonoDevelopProperties) = preSolution
+																																																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

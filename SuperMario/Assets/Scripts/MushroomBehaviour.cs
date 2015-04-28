@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class MushroomBehaviour : MonoBehaviour {
+
+	// dette er en kommentar for å se at git fungerer
 	private Vector3 startPos;
 	private Vector3 endPos;
 	private float startTime;
