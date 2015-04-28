@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class SmallMarioBehaviour : MonoBehaviour {
-	float mariosBackwardBoundsLimit = 1.67f;
 	float stdSpeed = 0.9f;
 	float walkSpeed = 0.9f;
 	public KeyCode runButton;
@@ -56,9 +55,6 @@ public class SmallMarioBehaviour : MonoBehaviour {
 	}
 	void FixedUpdate () {
 		rb.velocity = new Vector2 (moveDir * stdSpeed,rb.velocity.y);
-		float camPos = Camera.main.transform.position.x;
-		// blokkerer mario fra å gå ut av screenen
-		rb.position = new Vector2 (Mathf.Clamp (rb.position.x, camPos - mariosBackwardBoundsLimit, camPos + 10),transform.position.y);
 		//rigidbody2D.position = new Vector2(
 		//	Mathf.Clamp(rigidbody2D.position.x, xMin, xMax), 
 		//	Mathf.Clamp(rigidbody2D.position.y, yMin, yMax)

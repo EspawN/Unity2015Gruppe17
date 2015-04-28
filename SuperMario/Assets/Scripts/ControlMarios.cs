@@ -4,6 +4,7 @@ using System.Collections;
 public class ControlMarios : MonoBehaviour {
 	public GameObject lilleMario;
 	public GameObject storeMario;
+	float mariosBackwardBoundsLimit = 1.67f;
 
 	private SmallMarioBehaviour lilleMarioScript;
 	private BigMarioBehaviour storeMarioScript;
@@ -24,6 +25,11 @@ public class ControlMarios : MonoBehaviour {
 		playerState = lilleMarioScript.getState ();
 	}
 	void Update(){
+		float camPos = Camera.main.transform.position.x;
+		// blokkerer mario fra å gå ut av screenen
+		Rigidbody2D rb = currentPlayer.GetComponent<Rigidbody2D> ();
+		rb.position = new Vector2 (Mathf.Clamp (rb.position.x, camPos - mariosBackwardBoundsLimit, camPos + 10),rb.transform.position.y);
+
 		if (currentPlayer == lilleMario) {
 			playerState = lilleMarioScript.getState ();
 			if(playerState == 2){
