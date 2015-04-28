@@ -1,17 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
-    <Files>
-      <File FileName="assets/scripts/QuestionBoxHit.cs" Line="1" Column="1" />
-      <File FileName="assets/scripts/MushroomBehaviour.cs" Line="43" Column="77" />
-      <File FileName="Assets/Scripts/SmallMarioBehaviour.cs" Line="5" Column="33" />
-      <File FileName="Assets/Scripts/BigMarioBehaviour.cs" Line="23" Column="26" />
-      <File FileName="Assets/Scripts/SpawnMultipleGombas.cs" Line="11" Column="40" />
-      <File FileName="assets/scripts/GoombaBehaviour.cs" Line="20" Column="23" />
-      <File FileName="Assets/Scripts/ControlMarios.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
